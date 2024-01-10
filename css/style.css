@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/1.jpeg);
+    color: white;
+    background-repeat: repeat-x;
+
+   
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 11px;
+    top: 20px;
+    /* border: 2px solid yellow;   */
+    width: 5%;
+    height: 7%;
+
+}
+
+.logo img {
+    width: 99.5%;
+    height: 100%;
+    text-align: center;
+}
+.logo p{
+    margin: 2px;
+    font: large;
+}
+
+.navigation {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+
+}
+
+.navigation li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+   cursor: pointer;
+   font-size: large;
+   padding: 8px;
+}
+
+.nav li a:hover {
+  background-color: grey;
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    right: 11px;
+    top: 20px;
+    /* border: 2px solid red;  */
+    margin-top: 8px;
+}
+
+.btn a {
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+.info p{
+    color: white;
+    margin: auto;
+    padding: 4px;
+}
